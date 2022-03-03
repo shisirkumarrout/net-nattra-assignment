@@ -1,0 +1,130 @@
+body {
+    font-family: 'Architects Daughter', cursive;
+    margin: 0px;
+}
+
+h2 {
+    display: inline-block;
+    margin: 18px 1.5em;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+#header {
+    width: 100%;
+    background-color: rgb(0, 0, 96);
+    height: 70px;
+}
+
+#navbar {
+    float: right;
+    padding-right: 2em;
+    margin-top: 18px;
+}
+
+.nav-elem {
+    padding: 0.5em;
+    border-radius: 2em;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color:rgb(0, 0, 96);
+}
+
+#search-bar {
+    border: none;
+    margin: 0 2.5em;
+}
+
+#search-bar:hover {
+    transform: scale(1.2);
+}
+
+#main-content {
+    background: linear-gradient(-30deg,white, grey);
+    padding: 1.5em;
+    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 5em;
+}
+
+.team-card {
+    width: 10em;
+    height: 15em;
+    padding: 1em;
+    border-radius: 0.3em;
+    font-weight: 800;
+    box-shadow: 5px 10px 10px black;
+}
+
+.team-card:hover {
+    transform: scale(1.1);
+}
+
+.team-card-name {
+    text-align: center;
+    background-color: rgb(255,255,255, 0.5);
+    border-radius: 1.5em;
+}
+
+#csk {
+    background-image: url("./assets/csk2.jpg");
+    background-size: 100% 100%;
+}
+
+#mi {
+    background-image: url("./assets/mi.jpg");
+    background-size: 100% 100%;
+}
+
+#kkr {
+    background-image: url("./assets/kkr.jpg");
+    background-size: 100% 100%;
+}
+
+#kxip {
+    background-image: url("./assets/kxip.jpg");
+    background-size: 100% 100%;
+}
+
+#srh {
+    background-image: url("./assets/srh.jfif");
+    background-size: 100% 100%;
+}
+
+#rcb {
+    background-image: url("./assets/rcb.jpg");
+    background-size: 100% 100%;
+}
+
+#dc {
+    background-image: url("./assets/dc.jfif");
+    background-size: 100% 100%;
+}
+
+#rr {
+    background-image: url("./assets/rr.png");
+    background-size: 100% 100%;
+}
+
+#footer {
+    text-align: center;
+    color: rgb(0, 0, 96);
+}
+
+.content-nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+
+
